@@ -65,10 +65,10 @@ export default function Nav() {
                     <NavigationMenuItem>
                         <Link href="/docs" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                Documentation
+                                Home
                             </NavigationMenuLink>
                         </Link>
-                        <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+                        <NavigationMenuTrigger>DSA practice</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                                 <li className="row-span-3">
@@ -102,7 +102,7 @@ export default function Nav() {
                         </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+                        <NavigationMenuTrigger>Jobs</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                                 {components.map((component) => (
@@ -120,17 +120,17 @@ export default function Nav() {
                     <NavigationMenuItem>
                         <Link href="/docs" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                Documentation
+                                Competitions
                             </NavigationMenuLink>
                         </Link>
                         <Link href="/docs" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                Documentation
+                                Interviews
                             </NavigationMenuLink>
                         </Link>
                         <Link href="/docs" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                Documentation
+                                Resources
                             </NavigationMenuLink>
                         </Link>
                     </NavigationMenuItem>
